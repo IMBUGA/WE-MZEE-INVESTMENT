@@ -1,0 +1,59 @@
+we-mzee-investment/
+├── backend/
+│   ├── models/
+│   │   ├── Member.js
+│   │   ├── Contribution.js
+│   │   ├── Investment.js
+│   │   ├── Loan.js
+│   │   └── ProfitDistribution.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── members.js
+│   │   ├── contributions.js
+│   │   ├── investments.js
+│   │   ├── loans.js
+│   │   ├── profits.js
+│   │   ├── reports.js
+│   │   └── notifications.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── adminAuth.js
+│   ├── services/
+│   │   ├── notificationService.js
+│   │   └── reportService.js
+│   ├── config/
+│   │   └── seed.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Layout.jsx
+│   │   ├── contexts/
+│   │   │   └── AuthContext.jsx
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Contributions.jsx
+│   │   │   ├── Investments.jsx
+│   │   │   ├── Loans.jsx
+│   │   │   ├── Profits.jsx
+│   │   │   ├── Members.jsx
+│   │   │   ├── Reports.jsx
+│   │   │   ├── Notifications.jsx
+│   │   │   └── Profile.jsx
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── public/
+│   │   └── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   └── index.html
+└── README.md
